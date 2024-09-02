@@ -1,17 +1,4 @@
 #lang racket
-
-#|-Fecha de publicación 4/17/2024
--Hora 6:40 a.m
-- Versión de su código 8.9
--Autor. Ing(c): Jose Daniel Gómez Buriticá
-- Nombre del lenguaje utilizado: Racket
-- Versión del lenguaje utilizado: 8.12
-- Presentado a: Doctor Ricardo Moreno Laverde
-- Universidad Tecnológica de Pereira
-- Programa de Ingeniería de Sistemas y Computación
-- Este programa permite a un usuario jugar a El ahoracado de forma gráfica  
-- Salvedades si las hubiese. Ejemplo: Salvedad: Para valores fuera de este rango, no garantizamos los resultados.|#
-
 ( require graphics/graphics )
 ( open-graphics )
 ( define game ( open-viewport "Ahorcado" 800 460 ) )
